@@ -1,0 +1,10 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+t.up(); t.width(5); t.color("blue"); t.goto(-150, 0); t.down(); t.circle(80)
+t.up(); t.width(5); t.color("black"); t.goto(-30, 0); t.down(); t.circle(80)
+t.up(); t.width(5); t.color("red"); t.goto(100, 0); t.down(); t.circle(80)
+t.up(); t.width(5); t.color("yellow"); t.goto(-90, -90); t.down(); t.circle(80)
+t.up(); t.width(5); t.color("green"); t.goto(40, -90); t.down(); t.circle(80)
+t.write("종료하려면 화면클릭")
+t._screen.exitonclick()
